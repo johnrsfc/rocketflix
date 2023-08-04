@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+section .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+section .container .content {
+  text-align: center;
+}
+section .container .content h1 {
+  color: #fffcf9;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+section .container .content h2, section .container .content h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fffcf9;
+}
+section .container .content .btn {
+  display: flex;
+  justify-content: center;
+}
+section .container .content .btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e9e6e3;
+  color: #000;
+  text-decoration: none;
+  padding: 0.8rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: 0.2rem;
+  margin: 2rem 0 2rem 0;
+  transition: all 0.9s;
+}
+section .container .content .btn a img {
+  margin-right: 1rem;
+}
+section .container .content .btn a:hover {
+  transform: scale(1.1);
+}
+section .container .content .content-box .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .container .content .content-box .box .textBox {
+  width: 400px;
+  color: #FFFCF9;
+  text-align: start;
+  margin: 1.5rem 0 1.5rem 1rem;
+}
+section .container .content .content-box .box .textBox .title h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+section .container .content .content-box .box .textBox .description h1 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=styles.css.map */
